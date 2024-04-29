@@ -6,24 +6,7 @@ logo: 'assets/images/dark_circle.png'
 stylesheet:
   - 'assets/catppuccin-mocha.css'
 theme: 'catppuccin-macchiato'
-message:
-  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
-  # mapping: # allows to map fields from the remote format to the one expected by Homer
-  #   title: 'id' # use value from field 'id' as title
-  #   content: 'value' # value from field 'value' as content
-  # refreshInterval: 10000 # Optional: time interval to refresh message
-  #
-  # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  # url: https://api.chucknorris.io/jokes/random
-  # mapping:
-  #   title: 'id'
-  #   content: 'value'
-  # refreshInterval: 10000
-  # style: "is-warning"
-  # title: "Optional message!"
-  # icon: "fa fa-exclamation-triangle"
-  # content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-
+footer: '<img src="/assets/images/footer.png" alt="footer" />'
 
 links:
   - name: "Github"
@@ -35,14 +18,41 @@ links:
     url: "https://coolify.mozart409.host"
     target: "_blank"
 
-
+colors:
+  light:
+    background-image: "/assets/images/romb.png"
+  dark:
+    background-image: "/assets/images/romb.png"
+ 
 services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
       - name: "Tandoor"
-        logo: "fas fa-book"
+        logo: "assets/images/tandoor.svg"
         tag: "food"
-        keywords: "self hosted tandoor"
+        keywords: "food"
         url: "https://tandoor.mozart409.host"
         target: "_blank"
+      - name: "Cloudflare"
+        logo: "https://www.cloudflare.com/favicon.ico"
+        tag: "cloud"
+        keywords: "cf"
+        url: "https://cloudflare.com"
+        target: "_blank"
+      - name: "Tailscale"
+        logo: "https://login.tailscale.com/favicon.ico"
+        tag: "cloud"
+        keywords: "network"
+        url: "https://login.tailscale.com/admin/machines"
+        target: "_blank"
+  - name: "Productivity"
+    icon: "fas fa-mail"
+    items:
+      - name: "Proton Mail"
+        logo: "https://mail.proton.me/assets/favicon.ico"
+        tag: "mail"
+        keywords: "mail"
+        url: "https://mail.protonmail.com/"
+        target: "_blank"
+  

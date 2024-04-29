@@ -37,12 +37,6 @@
 
 /* Comment the following section out if you want no header image. Also, set --highlight-primary to var(--catppuccin-surface0). */
 
-#app.theme-default.is-dark #bighead {
-  background-image: url('../assets/images/romb.png');
-  background-size: cover;
-  background-position: center;
-}
-
 #app.theme-default.is-dark .logo {
   color: var(--catppuccin-mauve);
 }
