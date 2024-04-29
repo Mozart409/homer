@@ -1,13 +1,11 @@
----
 title: "Mozart409 Dashboard"
 subtitle: "Homer"
-header: true 
+header: true
 logo: 'assets/images/dark_circle.png'
 stylesheet:
   - 'assets/catppuccin-mocha.css'
 theme: 'catppuccin-macchiato'
 footer: '<img src="/assets/images/footer.png" alt="footer" />'
-
 links:
   - name: "Github"
     icon: "fab fa-github"
@@ -17,13 +15,11 @@ links:
     icon: "fa fa-server"
     url: "https://coolify.mozart409.host"
     target: "_blank"
-
 colors:
   light:
     background-image: "/assets/images/romb.png"
   dark:
     background-image: "/assets/images/romb.png"
- 
 services:
   - name: "Applications"
     icon: "fas fa-cloud"
@@ -46,6 +42,16 @@ services:
         keywords: "network"
         url: "https://login.tailscale.com/admin/machines"
         target: "_blank"
+      - name: "Pi-Hole"
+        logo: "https://rhubarb.dropbear-butterfly.ts.net/admin/img/logo.svg"
+        tag: "Network-wide Ad Blocking"
+        keywords: ["Pi-Hole", "Ad Blocking", "Network"]
+        url: "https://rhubarb.dropbear-butterfly.ts.net/admin/"
+      - name: "Homeassistant"
+        logo: "https://www.home-assistant.io/images/favicon-192x192.png"
+        tag: "Awaken your home"
+        keywords: ["Homeassistant", "Home Automation", "Smart Home"]
+        url: "https://homeassistant.dropbear-butterfly.ts.net/lovelace/default_view"
   - name: "Productivity"
     icon: "fas fa-mail"
     items:
@@ -55,4 +61,3 @@ services:
         keywords: "mail"
         url: "https://mail.protonmail.com/"
         target: "_blank"
-  
