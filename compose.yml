@@ -1,0 +1,12 @@
+services:
+  homer:
+    container_name: homer
+    image: mozart409/homer:latest
+    build:
+        context: .
+    ports:
+      - 8888:8080
+    develop:
+      watch:
+        - path: ./assets/config.yml
+          action: rebuild
