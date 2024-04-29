@@ -1,0 +1,4 @@
+compose.yml
+justfile
+readme.md 
+.env
