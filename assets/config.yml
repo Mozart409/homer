@@ -61,3 +61,12 @@ services:
         keywords: "mail"
         url: "https://mail.protonmail.com/"
         target: "_blank"
+      - name: "Proton Calendar"
+        logo: "https://calendar.proton.me/assets/favicon.ico"
+        url: "https://calendar.proton.me"
+  - name: "Projects"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Fly.io"
+        logo: "https://fly.io/favicon.ico"
+        url: "https://fly.io/dashboard"
