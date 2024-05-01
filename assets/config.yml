@@ -1,5 +1,5 @@
-title: "Mozart409 Dashboard"
-subtitle: "Homer"
+title: 'Mozart409 Dashboard'
+subtitle: 'Homer'
 header: true
 logo: 'assets/images/dark_circle.png'
 stylesheet:
@@ -7,66 +7,107 @@ stylesheet:
 theme: 'catppuccin-macchiato'
 footer: '<img src="/assets/images/footer.png" alt="footer" />'
 links:
-  - name: "Github"
-    icon: "fab fa-github"
-    url: "https://github.com/mozart409"
-    target: "_blank" # optional html tag target attribute
-  - name: "Coolify"
-    icon: "fa fa-server"
-    url: "https://coolify.mozart409.host"
-    target: "_blank"
+  - name: 'Github'
+    icon: 'fab fa-github'
+    url: 'https://github.com/mozart409'
+    target: '_blank' # optional html tag target attribute
+  - name: 'Coolify'
+    icon: 'fa fa-server'
+    url: 'https://coolify.mozart409.host'
+    target: '_blank'
 colors:
   light:
-    background-image: "/assets/images/romb.png"
+    background-image: '/assets/images/romb.png'
   dark:
-    background-image: "/assets/images/romb.png"
+    background-image: '/assets/images/romb.png'
 services:
-  - name: "Applications"
-    icon: "fas fa-cloud"
+  - name: 'Applications'
+    icon: 'fas fa-cloud'
     items:
-      - name: "Tandoor"
-        logo: "assets/images/tandoor.svg"
-        tag: "food"
-        keywords: "food"
-        url: "https://tandoor.mozart409.host"
-        target: "_blank"
-      - name: "Cloudflare"
-        logo: "https://www.cloudflare.com/favicon.ico"
-        tag: "cloud"
-        keywords: "cf"
-        url: "https://cloudflare.com"
-        target: "_blank"
-      - name: "Tailscale"
-        logo: "https://login.tailscale.com/favicon.ico"
-        tag: "cloud"
-        keywords: "network"
-        url: "https://login.tailscale.com/admin/machines"
-        target: "_blank"
-      - name: "Pi-Hole"
-        logo: "https://rhubarb.dropbear-butterfly.ts.net/admin/img/logo.svg"
-        tag: "Network-wide Ad Blocking"
-        keywords: ["Pi-Hole", "Ad Blocking", "Network"]
-        url: "https://rhubarb.dropbear-butterfly.ts.net/admin/"
-      - name: "Homeassistant"
-        logo: "https://www.home-assistant.io/images/favicon-192x192.png"
-        tag: "Awaken your home"
-        keywords: ["Homeassistant", "Home Automation", "Smart Home"]
-        url: "https://homeassistant.dropbear-butterfly.ts.net/lovelace/default_view"
-  - name: "Productivity"
-    icon: "fas fa-mail"
+      - name: 'Tandoor'
+        logo: 'assets/images/tandoor.svg'
+        tag: 'food'
+        keywords: 'food'
+        url: 'https://tandoor.mozart409.host'
+        target: '_blank'
+
+      - name: 'Tailscale'
+        logo: 'https://login.tailscale.com/favicon.ico'
+        tag: 'cloud'
+        keywords: 'network'
+        url: 'https://login.tailscale.com/admin/machines'
+        target: '_blank'
+      - name: 'Pi-Hole'
+        logo: 'https://rhubarb.dropbear-butterfly.ts.net/admin/img/logo.svg'
+        tag: 'Network-wide Ad Blocking'
+        keywords: ['Pi-Hole', 'Ad Blocking', 'Network']
+        url: 'https://rhubarb.dropbear-butterfly.ts.net/admin/'
+      - name: 'Homeassistant'
+        logo: 'https://www.home-assistant.io/images/favicon-192x192.png'
+        tag: 'Awaken your home'
+        keywords: ['Homeassistant', 'Home Automation', 'Smart Home']
+        url: 'https://homeassistant.dropbear-butterfly.ts.net/lovelace/default_view'
+  - name: 'Productivity'
+    icon: 'fas fa-mail'
     items:
-      - name: "Proton Mail"
-        logo: "https://mail.proton.me/assets/favicon.ico"
-        tag: "mail"
-        keywords: "mail"
-        url: "https://mail.protonmail.com/"
-        target: "_blank"
-      - name: "Proton Calendar"
-        logo: "https://calendar.proton.me/assets/favicon.ico"
-        url: "https://calendar.proton.me"
-  - name: "Projects"
-    icon: "fas fa-cloud"
+      - name: 'Proton Mail'
+        logo: 'https://mail.proton.me/assets/favicon.ico'
+        tag: 'mail'
+        keywords: 'mail'
+        url: 'https://mail.protonmail.com/'
+        target: '_blank'
+      - name: 'Proton Calendar'
+        logo: 'https://calendar.proton.me/assets/favicon.ico'
+        tag: 'calendar'
+        keywords: 'calendar'
+        url: 'https://calendar.proton.me'
+      - name: 'Gmail'
+        tag: 'mail'
+        keywords: 'mail'
+        logo: 'https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico'
+        url: 'https://gmail.com'
+      - name: 'Google Calendar'
+        tag: 'calendar'
+        keywords: 'calendar'
+        logo: 'https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_1_2x.png'
+        url: 'https://calendar.google.com/calendar'
+  - name: 'Projects'
+    icon: 'fas fa-cloud'
     items:
-      - name: "Fly.io"
-        logo: "https://fly.io/favicon.ico"
-        url: "https://fly.io/dashboard"
+      - name: 'Fly.io'
+        logo: 'assets/images/fly.png'
+        tag: 'cloud'
+        keywords: 'fly'
+        url: 'https://fly.io/dashboard'
+      - name: 'Railway'
+        logo: 'https://railway.app/favicon.ico'
+        tag: 'cloud'
+        keywords: 'railway'
+        url: 'https://railway.app'
+      - name: 'Resend'
+        logo: 'https://resend.com/static/favicons/favicon@180x180.png'
+        tag: 'cloud'
+        keywords: 'resend'
+        url: 'https://resend.com'
+      - name: 'Cloudflare'
+        logo: 'https://www.cloudflare.com/favicon.ico'
+        tag: 'cloud'
+        keywords: 'cf'
+        url: 'https://cloudflare.com'
+        target: '_blank'
+      - name: 'Baselime'
+        logo: 'https://baselime.io/logo.svg'
+        tag: 'cloud'
+        keywords: 'baselime'
+        url: 'https://baselime.io/'
+  - name: 'Social'
+    icon: 'fas fa-social'
+    items:
+      - name: 'Twitter'
+        logo: 'https://abs.twimg.com/favicons/twitter.ico'
+        url: 'https://twitter.com/mozart409'
+        target: '_blank'
+      - name: 'Reddit'
+        logo: 'https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png'
+        url: 'https://www.reddit.com/user/mozart409'
+        target: '_blank'
