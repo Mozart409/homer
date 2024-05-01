@@ -108,6 +108,6 @@ services:
         url: 'https://twitter.com/mozart409'
         target: '_blank'
       - name: 'Reddit'
-        logo: 'https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png'
+        logo: 'assets/images/reddit.png'
         url: 'https://www.reddit.com/user/mozart409'
         target: '_blank'
