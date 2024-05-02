@@ -111,3 +111,10 @@ services:
         logo: 'assets/images/reddit.png'
         url: 'https://www.reddit.com/user/mozart409'
         target: '_blank'
+  - name: 'Tools'
+    icon: 'fas fa-tool'
+    items:
+      - name: 'Speedtest'
+        logo: 'https://www.cloudflare.com/favicon.ico'
+        url: 'https://speed.cloudflare.com/'
+        tag: 'tool'
