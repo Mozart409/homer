@@ -100,6 +100,10 @@ services:
         tag: 'cloud'
         keywords: 'baselime'
         url: 'https://baselime.io/'
+      - name: 'Hetzner'
+        logo: 'https://console.hetzner.cloud/apple-touch-icon.png'
+        tag: 'cloud'
+        url: 'https://console.hetzner.cloud/projects'
   - name: 'Social'
     icon: 'fas fa-social'
     items:
