@@ -76,6 +76,11 @@ services:
         keywords: 'calendar'
         logo: 'https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_1_2x.png'
         url: 'https://calendar.google.com/calendar'
+      - name: 'Docker Hub'
+        tag: 'docker'
+        keywords: 'docker'
+        logo: 'assets/images/docker.ico'
+        url: 'https://hub.docker.com/'
   - name: 'Projects'
     icon: 'fas fa-cloud'
     items:
