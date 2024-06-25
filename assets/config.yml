@@ -31,7 +31,7 @@ services:
         url: 'https://tandoor.mozart409.host'
         target: '_blank'
       - name: 'TrueNAS'
-        logo: 'assets/images/truenas.svg'
+        logo: 'assets/images/truenas.png'
         tag: 'nas'
         keywords: 'nas'
         url: 'https://truenas.local:444'
