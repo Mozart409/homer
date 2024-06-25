@@ -30,7 +30,6 @@ services:
         keywords: 'food'
         url: 'https://tandoor.mozart409.host'
         target: '_blank'
-
       - name: 'Tailscale'
         logo: 'https://login.tailscale.com/favicon.ico'
         tag: 'cloud'
