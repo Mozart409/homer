@@ -1,5 +1,4 @@
-FROM b4bz/homer:v24.05.1
-
+FROM b4bz/homer:latest
 WORKDIR /app
 
 COPY ./assets /www/assets
