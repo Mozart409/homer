@@ -4,8 +4,8 @@ services:
     image: mozart409/homer:latest
     build:
       context: .
-    expose:
-      - 8080
+    ports:
+      - 8080:8080
     develop:
       watch:
         - path: ./assets/config.yml
