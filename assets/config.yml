@@ -24,6 +24,12 @@ services:
   - name: 'Applications'
     icon: 'fas fa-cloud'
     items:
+      - name: 'Proxmox VE'
+        logo: 'assets/images/pve.svg'
+        tag: 'virtualization'
+        keywords: 'proxmox'
+        url: 'https://pve.dropbear-butterfly.ts.net'
+        target: '_blank'
       - name: 'Tandoor'
         logo: 'assets/images/tandoor.svg'
         tag: 'food'
