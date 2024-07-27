@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u mozart409 --password-stdin
+
+      - name: Build and push
+        run: |
+          docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/mozart409/homer:latest .
+          docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/mozart409/homer:${{ github.sha }} .
+          docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/mozart409/homer:latest -t ghcr.io/mozart409/homer:${{ github.sha }} .
+          docker push ghcr.io/mozart409/homer:latest
+          docker push ghcr.io/mozart409/homer:${{ github.sha }}

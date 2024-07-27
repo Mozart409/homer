@@ -14,3 +14,4 @@ build: clear
 
 start: clear
 	docker run -it -p 0:8080 mozart409/homer:latest
+
