@@ -7,7 +7,7 @@ on:
 
 env: 
   REGISTRY: ghcr.io
-  IMAGE: ${{ github.repository }}
+  IMAGE: mozart409/homer
 
 jobs:
   buildx:
